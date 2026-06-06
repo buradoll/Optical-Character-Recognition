@@ -1,9 +1,3 @@
-"""
-Optical Character Recognition (OCR) Pipeline Enhanced Version
-Computer Vision Course Project 7
-Uses Tesseract OCR with advanced preprocessing for improved text extraction accuracy.
-"""
-
 import os
 import sys
 import cv2
@@ -15,10 +9,7 @@ import tkinter as tk
 from tkinter import filedialog
 import time
 
-
-
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
 
 # File Selection 
 
